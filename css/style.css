@@ -1,0 +1,353 @@
+/*!
+ * South Shore Symphony Orchestra
+ * Graphic Web Designer: Chabelly Cespedes
+ *
+ * Copyright (C) 2019 South Shore Symphony Orchestra, http://sssymphony.org/
+ */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+/* Scroll Top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 26, 93);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: .25rem;
+}
+#myBtn:hover {
+    background-color: rgba(25, 28, 37, 0.9215686274509803);
+}
+/* Scroll Top */
+/*===*/
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+/*===*/
+.badge {
+    font-size: 18px;
+    padding: .75rem .75rem;
+    text-align: left;
+    font-weight: 500;
+}
+.badge-warning {
+    color: #ffffff;
+    background-color: #002073;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-top {
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.16);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+a.one, a.one:hover {
+    color: #fff;
+}
+a {
+    color: #002073;
+}
+a:hover {
+    color: #002073;
+}
+a#footerhome, a#footerabout, a#footercurrents, a#footerpasts, a#footersponsors, a#footercontribute, a#footeradvertise, a#footerlinks, a#footercontact, a#footermusicianinfo, a#footerphotos {
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+a#footerhome:hover, a#footerabout:hover, a#footercurrents:hover, a#footerpasts:hover, a#footersponsors:hover, a#footercontribute:hover, a#footeradvertise:hover, a#footerlinks:hover, a#footercontact:hover, a#footermusicianinfo:hover, a#footerphotos:hover {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    opacity: .5;
+    font-size: 1.3rem;
+}
+a#footerfb, a#footermail {
+    color: #fff;
+    padding: 3px;
+}
+a#footerfb:hover, a#footermail:hover {
+    opacity: .5;
+}
+a#footertosca, a#footerhitthedeck, a#footerlamarche, a#footernutcracker, a#footerlaboheme, a#footerbaronanddima, a#footercarmen, a#footervivaldi, a#footerjimmywebb, a#footermatthewmorrison, a#footerbolling, a#footeremerson, a#footerflorence, a#footersedaka, a#footerpetrushka, a#footernadya, a#footergeorge {
+    color: #ffffff9e;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.card-body {
+    background-color: #002073;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #002073;
+    color: #fff;
+    border-color: #002073;
+    font-size: 18px;
+}
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #002b9a;
+    color: #fff;
+    border-color: #002b9a;
+}
+.btn-secondary {
+    background-color: #1a3e9a;
+    color: #fff;
+    border-color: #1a3e9a;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn-secondary:hover, .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    background-color: #002b9a;
+    color: #fff;
+    border-color: #002b9a;
+}
+.space {
+    padding: 10px;
+}
+.nopadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+footer {
+    background-color: #002073;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer.bottom {
+    background-color: #0c0c0c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+p.text-white {
+    margin-bottom: 0px;
+}
+.navbar#topnav {
+    background-color: #0c0c0c;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+    z-index: 999;
+}
+.carousel-indicators {
+    right: auto!important;
+}
+.bg-dark {
+    background-color: #002073!important;
+    font-weight: 700;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #fff;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e4e4e4;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #e4e4e4;
+}
+tbody, thead {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.carousel-caption {
+    text-align: left;
+    bottom: 40%;
+}*/
+
+/*--Responsive--*/
+@media (min-width: 1200px) {
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-align: left;
+    padding-left: 16px;
+}
+section.top {
+    /*background-image:url("../img/3.jpg");
+	background-position: center;
+	background-size: cover;*/
+    padding: 20px;
+}
+.navbar#topnav {
+    padding: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .65rem;
+    padding-left: .65rem;
+}
+.navbar-expand-lg .navbar-nav {
+    font-size: 1.3rem;
+}
+.carousel-caption.d-none.d-md-block {
+    text-align: -webkit-left;
+    padding: 30px;
+    right: 60%;
+    background-color: #0c0c0ce0;
+    top: 45%;
+    height: fit-content;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 0rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #fff;
+}
+a.btn-primary#uno, a.btn-primary#dos, a.btn-primary#tres, a.btn-primary#cuatro, a.btn-primary#cinco, a.btn-primary#seis, a.btn-primary#siete, a.btn-primary#ocho, a.btn-primary#nueve, a.btn-primary#diez, a.btn-primary#once, a.btn-primary#doce, a.btn-primary#trece, a.btn-primary#katorce {
+    margin-bottom: 5px;
+    display: table;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-align: left;
+    padding-left: 16px;
+}
+.navbar#topnav {
+    padding: 40px;
+}
+.navbar-expand-lg .navbar-nav {
+    font-size: 1.3rem;
+}
+.carousel-caption.d-none.d-md-block {
+    text-align: -webkit-left;
+    padding: 30px;
+    right: 50%;
+    background-color: #0c0c0ce0;
+    top: 45%;
+    height: fit-content;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+ol.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 0rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #fff;
+}
+a.btn-primary#uno, a.btn-primary#dos, a.btn-primary#tres, a.btn-primary#cuatro, a.btn-primary#cinco, a.btn-primary#seis, a.btn-primary#siete, a.btn-primary#ocho, a.btn-primary#nueve, a.btn-primary#diez, a.btn-primary#once, a.btn-primary#doce, a.btn-primary#trece, a.btn-primary#katorce {
+    margin-bottom: 5px;
+    display: table;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-lg-6.col-md-12.col-sm-12.portfolio-item#uno, .col-lg-6.col-md-12.col-sm-12.portfolio-item#dos, .col-lg-6.col-md-12.col-sm-12.portfolio-item#tres, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cuatro, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cinco, .col-lg-6.col-md-12.col-sm-12.portfolio-item#seis, .col-lg-6.col-md-12.col-sm-12.portfolio-item#siete, .col-lg-6.col-md-12.col-sm-12.portfolio-item#ocho, .col-lg-6.col-md-12.col-sm-12.portfolio-item#nueve {
+    margin-bottom: 15px;
+}
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 1.3rem;
+}
+ol.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 0rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #fff;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.col-lg-6.col-md-12.col-sm-12.portfolio-item#uno, .col-lg-6.col-md-12.col-sm-12.portfolio-item#dos, .col-lg-6.col-md-12.col-sm-12.portfolio-item#tres, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cuatro, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cinco, .col-lg-6.col-md-12.col-sm-12.portfolio-item#seis, .col-lg-6.col-md-12.col-sm-12.portfolio-item#siete, .col-lg-6.col-md-12.col-sm-12.portfolio-item#ocho, .col-lg-6.col-md-12.col-sm-12.portfolio-item#nueve {
+    margin-bottom: 15px;
+}
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 1.3rem;
+}
+.portfolio-item {
+/* margin-bottom: 30px; */
+}
+.card.h-5 {
+    margin-bottom: 20px;
+}
+ol.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 0rem;
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 0rem;
+}
+}
+
+/* MOBILE */
+@media (max-width: 575px) {
+.navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 1.3rem;
+}
+.col-lg-6.col-md-12.col-sm-12.portfolio-item#uno, .col-lg-6.col-md-12.col-sm-12.portfolio-item#dos, .col-lg-6.col-md-12.col-sm-12.portfolio-item#tres, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cuatro, .col-lg-6.col-md-12.col-sm-12.portfolio-item#cinco, .col-lg-6.col-md-12.col-sm-12.portfolio-item#seis, .col-lg-6.col-md-12.col-sm-12.portfolio-item#siete, .col-lg-6.col-md-12.col-sm-12.portfolio-item#ocho, .col-lg-6.col-md-12.col-sm-12.portfolio-item#nueve {
+    margin-bottom: 15px;
+}
+.card.h-5 {
+    margin-bottom: 20px;
+}
+ol.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 0rem;
+    list-style: none;
+    background-color: #fff;
+    margin-bottom: 0rem;
+}
+a#footerhome, a#footerabout, a#footercurrents, a#footerpasts, a#footersponsors, a#footercontribute, a#footeradvertise, a#footerlinks, a#footercontact, a#footermusicianinfo, a#footerphotos {
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3rem;
+    display: block;
+}
+a#footerhome:hover, a#footerabout:hover, a#footercurrents:hover, a#footerpasts:hover, a#footersponsors:hover, a#footercontribute:hover, a#footeradvertise:hover, a#footerlinks:hover, a#footercontact:hover, a#footermusicianinfo:hover, a#footerphotos:hover {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    opacity: .5;
+    font-size: 1.3rem;
+    display: block;
+}
+}
+/*--Responsive--*/
